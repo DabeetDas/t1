@@ -85,7 +85,7 @@ bot.on('message', handleMessage);
  */
 function handleLogin() {
 	console.log('Discord Time Bot is now online!');
-	bot.user.setActivity("Unity Scrims", {type: "WATCHING"});
+	bot.user.setActivity("T1 Scrims", {type: "WATCHING"});
 	bot.user.setStatus("dnd")
 	/**
 	 * @desc Time function that updates the bot's nickname in every server
@@ -128,22 +128,22 @@ function handleDisconnect() {
 
 bot.on('message', message => {
 	
-if(message.content.startsWith("u!info")) {
+if(message.content.startsWith("a!info")) {
 
 const embed = new Discord.RichEmbed()
 
     .setColor("#ffff00")
-    .setTitle("Unity Scrims | ME")
+    .setTitle("T1 Scrims | Asia")
     .setURL("https://discord.gg/54ycF8M")
-    .setAuthor("Unity Alpha", "https://i.imgur.com/heroxyY.png" , "https://contactifcindia.wixsite.com/unityscrims")
-    .setDescription("Version : 21.0.3")
+    .setAuthor("T1 Alpha", "https://i.imgur.com/heroxyY.png" , "https://contactifcindia.wixsite.com/unityscrims")
+    .setDescription("Version : 1.0.0.1")
     .setThumbnail("https://i.imgur.com/heroxyY.png")
     .addField("CPU Load : 0.0038", "Local Server Latency : 0ms (Gurgaon,India)")
     .addField("Library : Node.js", "Main stream language : Javascript")
     .addField("API Latency : 160 ms (EU)","Server Location : London , EU")
     .addField("Servers : 1 (Unity)", "Heap Size: 550 MB")
     
-    .setFooter(" Developed by Unity Staff " ,"https://i.imgur.com/heroxyY.png"); 
+    .setFooter(" Developed by T1 Scrims | Staff " ,"https://i.imgur.com/heroxyY.png"); 
 	   
 	   
 let channel1 = message.channel 
