@@ -14,7 +14,7 @@ module.exports = {
 	 * @desc Default bot timezone if server's location is unknown
 	 * @default "Australia/Melbourne"
 	 */
-	zone: "Australia/Melbourne",
+	zone: "Asia/Tokyo",
 	/** 
 	 * @desc Default bot name format
 	 * @default "ddd h:mm A"
